@@ -13,6 +13,8 @@ The example app uses `platforms/ios@8.5.0`, which is where the issue started. If
 
 ## Error description
 
-When you create a database instance with multithreading enabled, it crashes the app with the following error:
+No issues with multithreading disabled but when you create a database instance with multithreading enabled, it crashes the app with the following error:
 
 `FATAL ERROR: HandleScope::HandleScope Entering the V8 API without proper locking in place`
+
+![screenshot](/sqlite-error-logs.png)
