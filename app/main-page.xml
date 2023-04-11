@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="SQLite Issue" icon="" />
+
+    <StackLayout class="p-20">
+        <Button text="CREATE SINGLE THREAD DB" tap="{{ createSingleThreadDb }}" class="-primary" />
+        <Button text="CREATE MULTI THREAD DB" tap="{{ createMultiThreadDb }}" class="-primary" />
+    </StackLayout>
+</Page>
